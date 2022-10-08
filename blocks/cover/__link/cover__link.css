@@ -1,0 +1,25 @@
+.cover__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(/images/cover/background-image.jpg) no-repeat center/cover;
+    text-decoration: none;
+}
+
+.cover__link::before {
+    content: '';
+    position: absolute;
+    background-color: #2a2c2f;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .3;
+    transition: opacity 1s;
+}
+
+.cover__link:hover::before{
+    opacity: .8;
+}
