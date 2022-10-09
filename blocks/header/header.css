@@ -3,5 +3,23 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 28px 48px 0;
+    margin: 28px 48px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin: 28px 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin: 28px 24px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        margin: 16px 16px 0;
+    }
 }
